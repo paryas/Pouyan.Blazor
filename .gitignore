@@ -1,4 +1,4 @@
 bin
 obj
 .vs
-BookStoreApp.API\logs
+logs
