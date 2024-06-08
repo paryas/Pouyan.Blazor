@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conf", "Conf", "{C713CBBA-F
 		Conf\secrets.json = Conf\secrets.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Blazor.Server.UI", "Bookstore.Blazor.Server.UI\Bookstore.Blazor.Server.UI.csproj", "{4A73602F-0B46-4EBB-95DF-2CD3EF3B456A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookstore.Blazor.Server.UI", "Bookstore.Blazor.Server.UI\Bookstore.Blazor.Server.UI.csproj", "{4A73602F-0B46-4EBB-95DF-2CD3EF3B456A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
