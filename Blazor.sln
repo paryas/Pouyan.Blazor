@@ -5,12 +5,10 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStoreApp.API", "BookStoreApp.API\BookStoreApp.API.csproj", "{A6E08429-0C5B-47CC-8564-B2068B9D0A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore.Blazor.Server.UI", "Bookstore.Blazor.Server.UI\Bookstore.Blazor.Server.UI.csproj", "{15930DA1-6E6C-431B-B2A4-6ADE0CBCE14A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Conf", "Conf", "{C713CBBA-FB43-4A1B-BAD6-7BFDDB10B2C0}"
 	ProjectSection(SolutionItems) = preProject
-		Conf\secrets.json = Conf\secrets.json
 		Conf\NSwag.Conf.json = Conf\NSwag.Conf.json
+		Conf\secrets.json = Conf\secrets.json
 	EndProjectSection
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{A6E08429-0C5B-47CC-8564-B2068B9D0A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6E08429-0C5B-47CC-8564-B2068B9D0A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6E08429-0C5B-47CC-8564-B2068B9D0A19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{15930DA1-6E6C-431B-B2A4-6ADE0CBCE14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{15930DA1-6E6C-431B-B2A4-6ADE0CBCE14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{15930DA1-6E6C-431B-B2A4-6ADE0CBCE14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{15930DA1-6E6C-431B-B2A4-6ADE0CBCE14A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
