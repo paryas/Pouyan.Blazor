@@ -1,6 +1,86 @@
 ﻿@page "/StaticPages/HTML"
 
-<h3>HTML</h3>
+<h1>Main Topic</h1>
+<h2>Subtopic 1</h2>
+<p>Content related to Subtopic 1</p>
+<h2>Subtopic 2</h2>
+<p>Content related to Subtopic 2</p>
+<h3>Subtopic 2.1</h3>
+<p>Content related to Subtopic 2.1</p>
+<h2>Subtopic 3</h2>
+<p>Content related to Subtopic 3</p>
+<h6>Subtopic 3</h6>
+<p>Content related to Subtopic 3</p>
+
+
+<p>THis is a paragraph</p>
+<p>second paragraph</p>
+
+<p>This is a sentence.<br />This is another sentence.</p>
+
+<a href="https://example.com" target="_blank">Visit Example Website</a>
+
+<ol>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+</ol>
+
+<ul>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+</ul>
+
+<div>
+	<h2>Title</h2>
+	<p>Paragraph content.</p>
+</div>
+
+<table border="=1">
+	<tr>
+		<th border="1">Column 1</th>
+		<th>Column 2</th>
+		<th>Column 3</th>
+	</tr>
+	<tr>
+		<td>Cell 1</td>
+		<td>Cell 2</td>
+		<td>Cell 3</td>
+	</tr>
+	<tr>
+		<td>Cell 4</td>
+		<td>Cell 5</td>
+		<td>Cell 6</td>
+	</tr>
+</table>
+
+<table border="1">
+	<tr>
+		<th border="1" colspan="2">Column 1</th>
+		<th border="1">Column 2</th>
+		<th border="1">Column 3</th>
+	</tr>
+	<tr>
+		<td border="1">Cell 1</td>
+		<td border="1">Cell 2</td>
+		<td border="1">Cell 3</td>
+		<td border="1" rowspan="2">Cell 4</td>
+	</tr>
+	<tr>
+		<td border="1" colspan="2">Cell 5</td>
+		<td border="1">Cell 6</td>
+	</tr>
+</table>
+
+<form action="/StaticPages/Received" method="get">
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name" required><br>
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email" required><br>
+	<input type="submit" value="Submit">
+</form>
+
 
 @code {
 
